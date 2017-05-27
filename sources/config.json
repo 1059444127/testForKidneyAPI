@@ -1,7 +1,10 @@
 {
 	"baseUrl":"http://121.43.107.106:4050",
 	"routes":{
-		"getUserID":"/user/getUserID"
+		"getUserID":"/user/getUserID",
+		"register":"/user/register",
+		"updateUserAgreement":"/user/updateUserAgreement",
+		"newPatientDetail":"/patient/newPatientDetail"
 	},
 	"validDoc":{
 		"username":"13208017796",
