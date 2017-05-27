@@ -1,10 +1,34 @@
 {
 	"baseUrl":"http://121.43.107.106:4050",
 	"routes":{
-		"getUserID":"/user/getUserID"
+		"getUserID":"/user/getUserID",
+		"resetPassword":"/user/reset",
+		"register":"/user/register",
+		"getUserAgreement":"/user/getUserAgreement",
+		"updateUserAgreement":"/user/updateUserAgreement",
+		"postDocBasic":"/doctor/postDocBasic",
+		"login":"/user/login"
 	},
 	"validDoc":{
 		"username":"13208017796",
-		"password":"123456"
+		"password":"123456",
+		"basicInfo":{
+			"userId":"docpost45",
+			"name":"修改xx",
+			"photoUrl":"http://doc.jpg", 
+			"birthday":"2017-04-04",
+			"gender":"1", 
+			"IDNo":"123456123456781234", 
+			"province":"浙江", 
+			"city":"杭州", 
+			"workUnit":"浙江省人民医院", 
+			"title":"主任医师", 
+			"job":"住院医师", 
+			"department":"肾内科", 
+			"major":"肾移植", 
+			"description":"很棒棒", 
+			"charge1":"55", 
+			"charge2":"66"
+		}
 	}
 }
